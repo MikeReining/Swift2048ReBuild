@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA4C1A1E-7A81-4E4D-BF67-85FE56730602</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swift2048ReBuild</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2F2F93D4296311900A0328094A0C9B48A7585231</key>
+		<string>https://github.com/MikeReining/Swift2048ReBuild.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift2048ReBuild.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2F2F93D4296311900A0328094A0C9B48A7585231</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MikeReining/Swift2048ReBuild.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2F2F93D4296311900A0328094A0C9B48A7585231</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F2F93D4296311900A0328094A0C9B48A7585231</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift2048ReBuild</string>
+		</dict>
+	</array>
+</dict>
+</plist>

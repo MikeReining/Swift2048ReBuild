@@ -14,6 +14,13 @@
 		27CAE1C01A6F05BE002E7626 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27CAE1BE1A6F05BE002E7626 /* LaunchScreen.xib */; };
 		27CAE1CC1A6F05BE002E7626 /* Swift2048ReBuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CAE1CB1A6F05BE002E7626 /* Swift2048ReBuildTests.swift */; };
 		27CAE1D61A6F0657002E7626 /* NumberTileGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CAE1D51A6F0657002E7626 /* NumberTileGameVC.swift */; };
+		27CAE1D81A6F07BD002E7626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CAE1D71A6F07BD002E7626 /* UIKit.framework */; };
+		27D3981B1A6F0C3C009DB642 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3981A1A6F0C3C009DB642 /* GameModel.swift */; };
+		27D3981D1A6F0E1B009DB642 /* AuxillaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D3981C1A6F0E1B009DB642 /* AuxillaryModels.swift */; };
+		27D398231A6F1EDE009DB642 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D398221A6F1EDE009DB642 /* GameBoardView.swift */; };
+		27D398251A6F2B1B009DB642 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D398241A6F2B1B009DB642 /* TileView.swift */; };
+		27D398271A6F2D4A009DB642 /* AppearanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D398261A6F2D4A009DB642 /* AppearanceProvider.swift */; };
+		27D398291A6F3936009DB642 /* AccessoryViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D398281A6F3936009DB642 /* AccessoryViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,14 @@
 		27CAE1CA1A6F05BE002E7626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27CAE1CB1A6F05BE002E7626 /* Swift2048ReBuildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift2048ReBuildTests.swift; sourceTree = "<group>"; };
 		27CAE1D51A6F0657002E7626 /* NumberTileGameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberTileGameVC.swift; path = ../NumberTileGameVC.swift; sourceTree = "<group>"; };
+		27CAE1D71A6F07BD002E7626 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27D3981A1A6F0C3C009DB642 /* GameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		27D3981C1A6F0E1B009DB642 /* AuxillaryModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuxillaryModels.swift; sourceTree = "<group>"; };
+		27D3981E1A6F0E5A009DB642 /* ScratchPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ScratchPad.playground; sourceTree = "<group>"; };
+		27D398221A6F1EDE009DB642 /* GameBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		27D398241A6F2B1B009DB642 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		27D398261A6F2D4A009DB642 /* AppearanceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceProvider.swift; sourceTree = "<group>"; };
+		27D398281A6F3936009DB642 /* AccessoryViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessoryViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CAE1D81A6F07BD002E7626 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,7 @@
 		27CAE1A71A6F05BE002E7626 = {
 			isa = PBXGroup;
 			children = (
+				27CAE1D71A6F07BD002E7626 /* UIKit.framework */,
 				27CAE1B21A6F05BE002E7626 /* Swift2048ReBuild */,
 				27CAE1C81A6F05BE002E7626 /* Swift2048ReBuildTests */,
 				27CAE1B11A6F05BE002E7626 /* Products */,
@@ -80,9 +97,11 @@
 			isa = PBXGroup;
 			children = (
 				27CAE1B51A6F05BE002E7626 /* AppDelegate.swift */,
-				27CAE1B71A6F05BE002E7626 /* ViewController.swift */,
-				27CAE1D51A6F0657002E7626 /* NumberTileGameVC.swift */,
+				27D398211A6F1EBD009DB642 /* VCs */,
 				27CAE1B91A6F05BE002E7626 /* Main.storyboard */,
+				27D3981F1A6F1E94009DB642 /* Models */,
+				27D3981E1A6F0E5A009DB642 /* ScratchPad.playground */,
+				27D398201A6F1EA1009DB642 /* Views */,
 				27CAE1BC1A6F05BE002E7626 /* Images.xcassets */,
 				27CAE1BE1A6F05BE002E7626 /* LaunchScreen.xib */,
 				27CAE1B31A6F05BE002E7626 /* Supporting Files */,
@@ -113,6 +132,35 @@
 				27CAE1CA1A6F05BE002E7626 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27D3981F1A6F1E94009DB642 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27D3981C1A6F0E1B009DB642 /* AuxillaryModels.swift */,
+				27D398261A6F2D4A009DB642 /* AppearanceProvider.swift */,
+				27D3981A1A6F0C3C009DB642 /* GameModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		27D398201A6F1EA1009DB642 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27D398281A6F3936009DB642 /* AccessoryViews.swift */,
+				27D398221A6F1EDE009DB642 /* GameBoardView.swift */,
+				27D398241A6F2B1B009DB642 /* TileView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		27D398211A6F1EBD009DB642 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				27CAE1B71A6F05BE002E7626 /* ViewController.swift */,
+				27CAE1D51A6F0657002E7626 /* NumberTileGameVC.swift */,
+			);
+			name = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +264,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				27CAE1D61A6F0657002E7626 /* NumberTileGameVC.swift in Sources */,
+				27D398251A6F2B1B009DB642 /* TileView.swift in Sources */,
+				27D3981D1A6F0E1B009DB642 /* AuxillaryModels.swift in Sources */,
+				27D3981B1A6F0C3C009DB642 /* GameModel.swift in Sources */,
+				27D398291A6F3936009DB642 /* AccessoryViews.swift in Sources */,
 				27CAE1B81A6F05BE002E7626 /* ViewController.swift in Sources */,
 				27CAE1B61A6F05BE002E7626 /* AppDelegate.swift in Sources */,
+				27D398271A6F2D4A009DB642 /* AppearanceProvider.swift in Sources */,
+				27D398231A6F1EDE009DB642 /* GameBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +463,7 @@
 				27CAE1D11A6F05BE002E7626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27CAE1D21A6F05BE002E7626 /* Build configuration list for PBXNativeTarget "Swift2048ReBuildTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +472,7 @@
 				27CAE1D41A6F05BE002E7626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

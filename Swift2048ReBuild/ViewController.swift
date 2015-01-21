@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func startGameButtonTapped(sender : UIButton) {
+        let game = NumberTileGameVC(dimension: 4, threshold: 2048)
+        self.presentViewController(game, animated: true, completion: nil)
+    }
 }
 
